@@ -84,8 +84,8 @@
 .china-text {
   position: absolute;
   top: 80px;
-  left: 80px;
-  font-size: 60px;
+  left: 20px;
+  font-size: 30px;
   font-weight: bold; /* Жирный шрифт */
   color: yellow; /* Желтый цвет */
 }
@@ -93,8 +93,8 @@
 .khujand-text {
   position: absolute;
   top: 80px;
-  right: 80px;
-  font-size: 60px;
+  right: 20px;
+  font-size: 30px;
   font-weight: bold; /* Жирный шрифт */
   color: yellow; /* Желтый цвет */
 }
