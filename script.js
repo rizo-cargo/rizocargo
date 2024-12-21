@@ -732,17 +732,17 @@
       const result = document.getElementById('result'); // Элемент для вывода результата
 
       if (!trackNumber) { // Если поле пустое
-        result.textContent = 'Введите трек-номер!';
+        result.textContent = 'Трек номератонро нависед!';
         result.style.color = 'red';
         return;
       }
 
       // Проверяем, есть ли трек-номер в списке
       if (validTrackNumbers.includes(trackNumber)) {
-        result.textContent = `Трек-номер ${trackNumber} найден!`; // Используем обратные кавычки
+        result.textContent = `Қабул ${trackNumber} шудааст!`; // Используем обратные кавычки
         result.style.color = 'orange';
       } else {
-        result.textContent = 'Трек-номер не найден!';
+        result.textContent = 'Трек-номери шумо нест!';
         result.style.color = 'orange';
       }
     });
